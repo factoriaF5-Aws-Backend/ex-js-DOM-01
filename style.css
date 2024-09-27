@@ -1,54 +1,67 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Navbar styling */
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 nav {
-    background-color: black;
-    padding: 10px;
-    color: white;
+  background-color: black;
+  padding: 10px;
+  color: white;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav ul li {
-    display: inline;
-   
+  display: inline;
 }
 
-
 nav ul li:hover {
-    background-color: #555;
-    border-radius: 5px;
+  background-color: #555;
+  border-radius: 5px;
 }
 
 /* Hero section styling */
 .hero {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: black;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
 }
 
 .hero h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(234, 109, 0);
+    color: white;
+  }
 }
